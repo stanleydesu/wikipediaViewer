@@ -1,3 +1,31 @@
 :root {
+	--color: #2bf;
+	background: pink;
+}
 
+.wrapper {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: "Helvetica Neue";
+}
+
+a {
+	text-decoration: none;
+	display: inline-block;
+	text-align: center;
+	color: white;
+	background: var(--color);
+	border: 2px solid var(--color);
+	border-radius: 5px;
+	transition: color 1s, background-color 1s;
+	line-height: 2em;
+	width: 5em;
+	height: 2em;
+}
+
+a:hover {
+	color: var(--color);
+	background: white;
 }

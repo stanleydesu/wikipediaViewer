@@ -1,6 +1,9 @@
 :root {
 	--color: #2bf;
-	background: pink;
+}
+
+body {
+	background-color: #eee;
 }
 
 .wrapper {
@@ -8,7 +11,30 @@
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	width: 90vw;
+	min-height: 90vh;
+	border-radius: 5px;
 	font-family: "Helvetica Neue";
+}
+
+.controller {
+	position: absolute;
+	top: 1em;
+	left: 50%;
+	transform: translate(-50%, 0%);
+}
+
+#search {
+	border-style: none;
+	background: white;
+	border-radius: 5px;
+	font-size: 16px;
+	height: 2em;
+
+}
+
+#search:focus {
+	outline: none;
 }
 
 a {
@@ -19,9 +45,9 @@ a {
 	background: var(--color);
 	border: 2px solid var(--color);
 	border-radius: 5px;
-	transition: color 1s, background-color 1s;
+	transition: color 0.5s, background-color 0.5s;
 	line-height: 2em;
-	width: 5em;
+	width: 4em;
 	height: 2em;
 }
 

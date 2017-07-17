@@ -58,7 +58,7 @@ body {
   margin-left: -2px;
   transform-origin: top center;
   transform: rotate(-45deg);
-  border: 3px solid #777;
+  border: 3px solid var(--default);
   border-radius: 5px;
   transition: border-color 0.3s ease;
   z-index: 1;

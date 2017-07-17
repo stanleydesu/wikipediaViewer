@@ -166,3 +166,7 @@ a:not(#random) {
 	-o-transform: scale(1);
 	transform: scale(1);
 }
+
+#error {
+	display: none;
+}

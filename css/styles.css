@@ -1,7 +1,7 @@
 :root {
 	--color: #e74c3c;
 	--color2: #2ecc71;
-	--default: #777;
+	--default: #666;
 	--light: #eee;
 	--special: #3498db;
 }
@@ -24,7 +24,7 @@ body {
 #search {
 	position: relative;
 	border-style: none;
-	border: 4px solid #777;
+	border: 4px solid var(--default);
 	border-radius: 5px;
 	font-size: 16px;
 	width: 1em;
@@ -34,6 +34,7 @@ body {
 	transition: all 0.3s ease;
 	text-align: center;
 	background-color: white;
+	color: #333;
 	z-index: 2;
 }
 
@@ -84,7 +85,7 @@ body {
 	color: var(--default);;
 	background: white;
 	margin-left: 10px;
-	border: 4px solid var(--default);;
+	border: 4px solid var(--default);
 	border-radius: 5px;
 	transition: color 0.5s, background-color 0.5s;
 	line-height: 2em;

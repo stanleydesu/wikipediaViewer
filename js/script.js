@@ -1,10 +1,10 @@
 (function() {
   "use strict";
 
-  let wrapper = document.querySelector('.wrapper'),
-      search = document.getElementById('search'),
-      results = document.getElementById('results'),
-      error = document.getElementById('error');
+  const wrapper = document.querySelector('.wrapper'),
+        search = document.getElementById('search'),
+        results = document.getElementById('results'),
+        error = document.getElementById('error');
 
   search.addEventListener('keyup', function(e) {
     if (e.target.value && e.which === 13) {
